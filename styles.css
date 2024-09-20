@@ -1,0 +1,41 @@
+.item{
+    padding: 8px 16px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 49px;
+    box-sizing: border-box;
+}
+.item5{
+    position: reative;/*permite sai dam valori in dependeta de care isi vor schimba pozitia, calculeaza si se muta*/
+    top: 16px;/* bottom si top mai sunt*/
+    left: 16px;
+}
+.item4{
+    position: absolute;/*aranjarea in pagina, daca el va fi copilul else va aranja comparativ fata de parinte*/
+bottom: 16px;
+left: 16px;
+}
+.item3{
+    position: fixed;/* el nusi va schimba pozitia chiar daca dai scroll*/
+    top: 16px;
+    left: 16px;
+}
+
+/* daca am setat asta sa facut scroll deoarece sa marit marimea paginii*/
+.screen{
+    height: 400vh;
+}
+.item2{
+    position: sticky;/* cand o sa dai scrol elementul dintai o sa fie pe pagina in care a fost setat 
+    apoi isi va marimele care au fost setate dupa position si va continua sa fie pe paginile urmatoare*/
+    top: 0;
+    left: 48px;/* z-index lucreaza cumvata*/
+}
+.item6{
+    /*display: block; amplasate unul sub altul in pagina*/
+    width: 10%;
+    /*display: inline; elementele vor merge in linie, are minus ca daca va fi un div
+     la mijloc de propozitie atunci nu va fi cel mai frumos va fi setst gresit  */
+     
+
+
+}
